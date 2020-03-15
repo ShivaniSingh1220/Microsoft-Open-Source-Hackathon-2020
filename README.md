@@ -10,7 +10,7 @@ It is real-time traffic management system which is used to change traffic contro
 It can be also used for purpose of Traffic Monitoring.
 
       
-                                           Let's understand the above mentioned problem statement
+                                        Let's understand the above mentioned problem statement
                                         
 Smart traffic management technologies such as adaptive traffic control and traffic analytics can improve safety and significantly decrease traffic congestion levels and greenhouse gas (GHG) emissions.
 
@@ -25,7 +25,7 @@ Similar to the platform capabilities offered by smart street lighting, layers of
 
 For example, Microsoft is working with companies like Moovit and TomTom to offer critical real-time data to MaaS application providers, enabling them to deliver compelling applications. By connecting traffic lights, vehicles, people, and roads to the cloud, sharing data, embracing alternative modes of transportation, and building traffic management systems, cities like Hong Kong, Taipei, and Denver are experiencing success and leading the way for other cities. This connection is anticipated to enable a bus rapid transit route to be prioritized through targeted greenlight timing.
 
-                                                 Existing Techniques and flaws in these techniques
+                                         Existing Techniques and flaws in these techniques
 * In Field of Traffic Management System, many techniques and algorithms have been proposed and implemented to reduce traffic congestion.
 Below are the few other solutions have we have seen in market? 
  
@@ -33,13 +33,13 @@ Below are the few other solutions have we have seen in market?
 
  Incident monitoring ###Traffic Incident Management is a planned and coordinated program process to detect, respond to, and remove traffic incidents and restore traffic capacity as safely and quickly as possible... https://ops.fhwa.dot.gov/eto_tim_pse/about/tim.htm)
 
- Active Traffic Management (ATM) (### Active traffic management (also managed lanes, smart lanes, managed/smart motorways) is a method of increasing peak capacity and smoothing traffic flows on busy major highways... https://en.wikipedia.org/wiki/Active_traffic_management) 
+ Active Traffic Management (ATM) ( Active traffic management (also managed lanes, smart lanes, managed/smart motorways) is a method of increasing peak capacity and smoothing traffic flows on busy major highways... https://en.wikipedia.org/wiki/Active_traffic_management) 
 
- Ramp meter monitoring and control (### A ramp meter, ramp signal, or metering light is a device, usually a basic traffic light or a two-section signal light (red and green only, no yellow) together with a signal controller, that regulates the flow of traffic entering freeways according to current traffic conditions... https://en.wikipedia.org/wiki/Ramp_meter)
+ Ramp meter monitoring and control ( A ramp meter, ramp signal, or metering light is a device, usually a basic traffic light or a two-section signal light (red and green only, no yellow) together with a signal controller, that regulates the flow of traffic entering freeways according to current traffic conditions... https://en.wikipedia.org/wiki/Ramp_meter)
 
- Arterial management (###Arterial Management strategies are used to effectively and successfully manage traffic and control arterial roadways... https://ops.fhwa.dot.gov/aboutus/one_pagers/arterial_mgmt.htm)
+ Arterial management ( Arterial Management strategies are used to effectively and successfully manage traffic and control arterial roadways... https://ops.fhwa.dot.gov/aboutus/one_pagers/arterial_mgmt.htm)
 
-                                           There are mentioned flaws that we have see in those solutions?
+                                    There are mentioned flaws that we have see in those solutions?
  
 * These techniques mainly uses Loop detector (Induction loop) circuits to calculate vehicle density. Once vehicle density is calculated , if it reaches some threshold value, it triggers the traffic light to change.  
  
@@ -50,11 +50,11 @@ Below are the few other solutions have we have seen in market?
 *Also, these systems are not deployed at every junction of the city/town. They are mainly used at most congested junctions of the area. Moreover, The new approaches being proposed does not define system which is fully automated and can behave with respect to traffic congestion at the junction in real time 
 
 
-                                                           Our Approach
+                                                Our Approach
 ### So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT. It is real-time traffic management system which is used to change traffic control lights depending upon the traffic congestion at that instant. It can be also used for purpose of Traffic Monitoring. 
 
 
-                                                          Proposed System 
+                                                Proposed System 
 # System requirements: 
  
 1) High-end Server system. 
@@ -65,7 +65,7 @@ Below are the few other solutions have we have seen in market?
 Below is the block diagram for the proposed system, we are considering for a single crossway traffic intersection. 
 
 
-                                                Smart Traffic Management System Block diagram 
+                                        Smart Traffic Management System Block diagram 
 # System Design: 
  
 > The Proposed system is essentially a network of microcontrollers (Raspberry Pi) which are connected to a single main server. 
