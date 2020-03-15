@@ -50,11 +50,11 @@ Below are the few other solutions have we have seen in market?
 *Also, these systems are not deployed at every junction of the city/town. They are mainly used at most congested junctions of the area. Moreover, The new approaches being proposed does not define system which is fully automated and can behave with respect to traffic congestion at the junction in real time 
 
 
-                                                  Our Approach
+                          Our Approach
 ### So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT. It is real-time traffic management system which is used to change traffic control lights depending upon the traffic congestion at that instant. It can be also used for purpose of Traffic Monitoring. 
 
 
-                                                Proposed System 
+                        Proposed System 
 # System requirements: 
  
 1) High-end Server system. 
@@ -65,6 +65,9 @@ Below are the few other solutions have we have seen in market?
 Below is the block diagram for the proposed system, we are considering for a single crossway traffic intersection. 
 
     Smart Traffic Management System Block diagram 
+ 
+
+
 # System Design: 
  
 > The Proposed system is essentially a network of microcontrollers (Raspberry Pi) which are connected to a single main server. 
