@@ -1,9 +1,9 @@
 # Microsoft-Open-Source-Hackathon-2020
-# Title : ## Smart Traffic management system(STMS) based on Internet Of Things for Quick Commute and carbon reduction
+## Title : Smart Traffic management system(STMS) based on Internet Of Things for Quick Commute and carbon reduction
 
-## Problem statement: ###Smart Traffic Management system for Quick Commute and carbon reduction
+### Problem statement: ###Smart Traffic Management system for Quick Commute and carbon reduction
 
-                                                     # Desciption
+                                                      Desciption
 STMS Smart Traffic management system (based on Internet Of Things (IOT) for a single cross way intersection) is fully automated system which is used to dynamically change and control the Traffic Control light’s timer in a traffic intersection area.
 Our Approach:
 So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT.
@@ -11,7 +11,7 @@ It is real-time traffic management system which is used to change traffic contro
 It can be also used for purpose of Traffic Monitoring.
 
       
-                                        # Let's understand the above mentioned problem statement
+                                         Let's understand the above mentioned problem statement
                                         
 ## Smart traffic management technologies such as adaptive traffic control and traffic analytics can improve safety and significantly decrease traffic congestion levels and greenhouse gas (GHG) emissions.
 
