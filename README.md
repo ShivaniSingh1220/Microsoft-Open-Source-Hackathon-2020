@@ -2,7 +2,7 @@
 
 ### Problem statement: Smart Traffic Management system for Quick Commute and carbon reduction
 
-                                                        Desciption
+                                                      Desciption
 STMS Smart Traffic management system (based on Internet Of Things (IOT) for a single cross way intersection) is fully automated system which is used to dynamically change and control the Traffic Control light’s timer in a traffic intersection area.
 Our Approach:
 So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT.
@@ -10,7 +10,7 @@ It is real-time traffic management system which is used to change traffic contro
 It can be also used for purpose of Traffic Monitoring.
 
       
-                                        Let's understand the above mentioned problem statement
+    Let's understand the above mentioned problem statement
                                         
 Smart traffic management technologies such as adaptive traffic control and traffic analytics can improve safety and significantly decrease traffic congestion levels and greenhouse gas (GHG) emissions.
 
@@ -25,7 +25,7 @@ Similar to the platform capabilities offered by smart street lighting, layers of
 
 For example, Microsoft is working with companies like Moovit and TomTom to offer critical real-time data to MaaS application providers, enabling them to deliver compelling applications. By connecting traffic lights, vehicles, people, and roads to the cloud, sharing data, embracing alternative modes of transportation, and building traffic management systems, cities like Hong Kong, Taipei, and Denver are experiencing success and leading the way for other cities. This connection is anticipated to enable a bus rapid transit route to be prioritized through targeted greenlight timing.
 
-                                         Existing Techniques and flaws in these techniques
+    Existing Techniques and flaws in these techniques
 * In Field of Traffic Management System, many techniques and algorithms have been proposed and implemented to reduce traffic congestion.
 Below are the few other solutions have we have seen in market? 
  
@@ -39,7 +39,7 @@ Below are the few other solutions have we have seen in market?
 
  Arterial management ( Arterial Management strategies are used to effectively and successfully manage traffic and control arterial roadways... https://ops.fhwa.dot.gov/aboutus/one_pagers/arterial_mgmt.htm)
 
-                                    There are mentioned flaws that we have see in those solutions?
+    There are mentioned flaws that we have see in those solutions?
  
 * These techniques mainly uses Loop detector (Induction loop) circuits to calculate vehicle density. Once vehicle density is calculated , if it reaches some threshold value, it triggers the traffic light to change.  
  
@@ -50,7 +50,7 @@ Below are the few other solutions have we have seen in market?
 *Also, these systems are not deployed at every junction of the city/town. They are mainly used at most congested junctions of the area. Moreover, The new approaches being proposed does not define system which is fully automated and can behave with respect to traffic congestion at the junction in real time 
 
 
-                                                Our Approach
+                                                  Our Approach
 ### So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT. It is real-time traffic management system which is used to change traffic control lights depending upon the traffic congestion at that instant. It can be also used for purpose of Traffic Monitoring. 
 
 
@@ -64,8 +64,7 @@ Below are the few other solutions have we have seen in market?
  
 Below is the block diagram for the proposed system, we are considering for a single crossway traffic intersection. 
 
-
-                                        Smart Traffic Management System Block diagram 
+    Smart Traffic Management System Block diagram 
 # System Design: 
  
 > The Proposed system is essentially a network of microcontrollers (Raspberry Pi) which are connected to a single main server. 
@@ -73,7 +72,8 @@ Below is the block diagram for the proposed system, we are considering for a sin
 > Internet Protocol cameras are also installed for each traffic intersection junction. 
 > The Microcontrollers are interfaced with Internet Protocol(IP) Camera and respective Traffic Control Signal lights. They are also connected to main server over Hyper Text Transfer Protocol (HTTP) through broadband connection. 
   
-       Process flow:
+    Process flow:
+    
  The IP Camera installed for each junction capture images at a fixed interval of time. These captures images are then forwarded to the corresponding interfaced Microcontroller. 
 
  The Microcontroller then uses Image Processing to calculate approximate traffic density for each junction. 
