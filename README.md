@@ -54,7 +54,7 @@ Below are the few other solutions have we have seen in market?
 ### So, to overcome these shortcomings we propose new approach ‘Smart traffic management’ which is based on concept of IOT. It is real-time traffic management system which is used to change traffic control lights depending upon the traffic congestion at that instant. It can be also used for purpose of Traffic Monitoring. 
 
 
-                        Proposed System 
+    Proposed System 
 # System requirements: 
  
 1) High-end Server system. 
